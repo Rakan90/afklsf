@@ -1,3 +1,3 @@
 public abstract class MainReportContent {
-    public abstract String makeMainReportContent(Employee employee);
+    public abstract String mainReportContent(Employee employee);
 }

@@ -5,7 +5,7 @@ public class ReportBuilder {
         StringBuilder report = new StringBuilder();
 
         report.append(settings.getHeader()).append("\n");
-        report.append(contentProvider.makeMainReportContent(employee));
+        report.append(contentProvider.mainReportContent(employee));
         report.append(settings.getFooter());
 
         return report.toString();

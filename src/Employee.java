@@ -1,29 +1,29 @@
 public class Employee {
-    private String name;
-    private String jobTitle;
-    private double salary;
-    private int yearsOfExperience;
+    private String fullName;
+    private String position;
+    private double wage;
+    private int experienceYears;
 
-    public Employee(String name, String jobTitle, double salary, int yearsOfExperience) {
-        this.name = name;
-        this.jobTitle = jobTitle;
-        this.salary = salary;
-        this.yearsOfExperience = yearsOfExperience;
+    public Employee(String fullName, String position, double wage, int experienceYears) {
+        this.fullName = fullName;
+        this.position = position;
+        this.wage = wage;
+        this.experienceYears = experienceYears;
     }
 
-    public String getName() {
-        return name;
+    public String getFullName() {
+        return fullName;
     }
 
-    public String getJobTitle() {
-        return jobTitle;
+    public String getPosition() {
+        return position;
     }
 
     public double getSalary() {
-        return salary;
+        return wage;
     }
 
-    public int getYearsOfExperience() {
-        return yearsOfExperience;
+    public int getExperienceYears() {
+        return experienceYears;
     }
 }
